@@ -1,0 +1,118 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    transition: background-color 0.5s;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+h1.animated-header {
+    font-size: 24px;
+    transition: font-size 0.5s;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    transition: color 0.5s;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+h2.animated-header {
+    font-size: 28px;
+    transition: font-size 0.5s;
+}
+
+h3 {
+    font-size: 22px;
+}
+
+h4 {
+    font-size: 18px;
+}
+
+p {
+    line-height: 1.5;
+}
+
+strong {
+    font-weight: bold;
+}
+
+img.animated-image {
+    display: block;
+    margin: 0 auto;
+    transition: transform 0.5s;
+}
+
+ol, ul {
+    margin-left: 20px;
+}
+
+ul {
+    list-style-type: disc;
+}
+
+a.animated-link {
+    transition: color 0.5s;
+}
+
+p.animated-text {
+    transition: font-size 0.5s;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #333;
+    color: #fff;
+    transition: background-color 0.5s;
+}
+
+/* Hover effects */
+header:hover {
+    background-color: #555;
+}
+
+h1.animated-header:hover {
+    font-size: 28px;
+}
+
+nav a:hover {
+    color: #88c0ff;
+}
+
+img.animated-image:hover {
+    transform: scale(1.05);
+}
+
+a.animated-link:hover {
+    color: #88c0ff;
+}
+
+footer:hover {
+    background-color: #555;
+}
